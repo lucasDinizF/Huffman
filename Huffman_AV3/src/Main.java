@@ -18,8 +18,8 @@ public class Main {
         while (parada) {
             int n = sc.nextInt();
             if (n == 1){
-                File text = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Texto.txt");
-                File Ziped = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Zip.txt");
+                File text = new File("C:\\Huffman_AV3\\Texto.txt");
+                File Ziped = new File("C:\\Huffman_AV3\\Zip.txt");
 
                 MyFileP FileP = new MyFileP();
                 Frequency frequency = new Frequency();
@@ -35,17 +35,17 @@ public class Main {
 
             }else if (n == 2){
                 UnZip Unzip = new UnZip();
-                File UnZiped = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Unzip.txt");
-                File Ziped = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Zip.txt");
+                File UnZiped = new File("C:\\Huffman_AV3\\Unzip.txt");
+                File Ziped = new File("C:\\Huffman_AV3\\Zip.txt");
 
                 Unzip.unzip(Ziped, UnZiped);
 
                 System.out.println("Descompressão feita com sucesso!");
 
             }else if (n == 3){
-                File text = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Texto.txt");
-                File Ziped = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Zip.txt");
-                File UnZiped = new File("C:\\Users\\lucas\\IdeaProjects\\Huffman_AV3\\Unzip.txt");
+                File text = new File("C:\\Huffman_AV3\\Texto.txt");
+                File Ziped = new File("C:\\Huffman_AV3\\Zip.txt");
+                File UnZiped = new File("C:\\Huffman_AV3\\Unzip.txt");
 
                 MyFileP FileP = new MyFileP();
                 Frequency frequency = new Frequency();
